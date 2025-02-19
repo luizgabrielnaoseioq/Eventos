@@ -13,4 +13,7 @@ public class UserDTO {
     private Date birthDate;
     private String perfil;
     private Boolean isVerified;
+
+    public UserDTO(Long id, String name, String email, String password, String cpf, Date birthDate, String perfil, Boolean isVerified) {
+    }
 }
